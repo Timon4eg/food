@@ -1,0 +1,99 @@
+@font-face {
+    font-family: lato;
+    src: url('../fonts/lato-bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url('../fonts/gilroy-extrabold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url('../fonts/raleway-thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url('../fonts/raleway-regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url('../fonts/raleway-bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: timenewroman;
+    src: url('../fonts/tnr-italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: timenewroman;
+    src: url('../fonts/tnr-regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url('../fonts/opensans-light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url('../fonts/opensans.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: storytella;
+    src: url('../fonts/Storytella.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    width: 1600px;
+    min-height: 1613px;
+    background-image: url(../img/topfon.jpg);
+    margin: 0 auto;
+}
+
+.logomenu {
+
+}
+
+.logomenu-logo {
+    width: 100px;
+    min-height: 130px;
+    background-color: #fcdb5a;
+}
+
+.logomenu-menu {
+
+}
+
+.logomenu-menu-item {
+    font-family: opensans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
