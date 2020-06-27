@@ -192,3 +192,15 @@ header {
     color: #fcdb5a;
     border: 2px solid #fcdb5a;
 }
+
+.header-content {
+    font-family: storytella;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    line-height: 200px;
+    color: #ffffff;
+    width: 521px;
+    margin: 170px 0 0 0;
+    padding: 0 215px 0 215px;
+}
