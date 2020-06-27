@@ -76,17 +76,49 @@ header {
 }
 
 .logomenu {
-
+    display: flex;
+    align-items: center;
+    padding: 0 215px 0 215px;
 }
 
 .logomenu-logo {
     width: 100px;
     min-height: 130px;
     background-color: #fcdb5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logomenu-logo:hover {
+    background-color: #ccaf8a;
+}
+
+.logomenu-logo:active {
+    background-color: #fcdb5a;
+}
+
+.logomenu-logo a {
+    text-decoration: none;
+}
+
+.logomenu-logo-txt {
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #4f4a37;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
 }
 
 .logomenu-menu {
-
+    width: 404px;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 444px 0 69px;
 }
 
 .logomenu-menu-item {
@@ -96,4 +128,67 @@ header {
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
+    display: block;
+    text-transform: capitalize;
+}
+
+.logomenu-menu-item:hover {
+    color: #fcdb5a;
+}
+
+.logomenu-menu-item:active {
+    color: #ccaf8a;
+}
+
+.logomenu-menu-item:after {
+    content: "";
+    display: block;
+    align-items: center;
+    width: 0%;
+    height: 2px;
+    margin: 39px 0 0 0;
+    background-color: #fcdb5a;
+    transition: width 0.2s ease-in-out;
+}
+
+.logomenu-menu-item:hover:after {
+    content: "";
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 2px;
+    margin: 39px 0 0 0;
+    background-color: #fcdb5a;
+}
+
+.logomenu-menu-item:active:after {
+    background-color: #ccaf8a;
+}
+
+.logomenu-button {
+    width: 153px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 22.5px;
+    border: none;
+    outline: none;
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+}
+
+.logomenu-button:hover {
+    background-color: #ccaf8a;
+    color: #4f4a37;
+    border: 2px solid #fcdb5a;
+}
+
+.logomenu-button:active {
+    background-color: #4f4a37;
+    color: #fcdb5a;
+    border: 2px solid #fcdb5a;
 }
