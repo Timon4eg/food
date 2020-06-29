@@ -312,3 +312,43 @@ header {
     grid-row-end: 3;
     grid-column-end: 5;
 }
+
+.services {
+    width: 1600px;
+    min-height: 1162px;
+}
+
+.services-preview {
+    padding: 42px 222px 0 216px;
+    position: relative;
+}
+
+.services-preview-item1 {
+    position: absolute;
+    width: 719px;
+    min-height: 492px;
+    background-image: url(../img/serv1.jpg);
+    top: 78px;
+}
+
+.services-preview-item2 {
+    position: absolute;
+    width: 329px;
+    min-height: 492px;
+    background-image: url(../img/serv2.jpg);
+    left: 619px;
+}
+
+.services-preview-item3 {
+    position: absolute;
+    width: 514px;
+    min-height: 424px;
+    font-family: storytella;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 100px;
+    color: #fcdb5a;
+    right: 222px;
+    top: 86px;
+}
