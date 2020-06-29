@@ -70,7 +70,7 @@
 
 header {
     width: 1600px;
-    min-height: 1613px;
+    min-height: 1631px;
     background-image: url(../img/topfon.jpg);
     margin: 0 auto;
 }
@@ -208,7 +208,7 @@ header {
 .header-pic {
     width: 1380px;
     min-height: 679px;
-    margin: 0 auto;
+    margin: 187px auto;
     display: grid;
     grid-template-columns: 380px 384px 116px 500px;
     grid-template-rows: 310px 369px;
@@ -251,6 +251,34 @@ header {
     line-height: 30px;
     text-transform: uppercase;
     color: #ffffff;
+    margin: 0 0 0 0;
+}
+
+.header-pic-item-yellow-txts {
+    position: absolute;
+    bottom: 155px;
+    left: 89px;
+}
+
+.header-pic-item-yellow-txt1 {
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #fcdb5a;
+    margin: 0 0 0 0;
+}
+
+.header-pic-item-yellow-txt2 {
+    font-family: raleway;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #fcdb5a;
     margin: 0 0 0 0;
 }
 
