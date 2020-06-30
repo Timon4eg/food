@@ -316,9 +316,14 @@ header {
 .services {
     width: 1600px;
     min-height: 1162px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .services-preview {
+    width: 100%;
+    min-height: 729px;
     padding: 42px 222px 0 216px;
     position: relative;
 }
@@ -351,4 +356,106 @@ header {
     color: #fcdb5a;
     right: 222px;
     top: 86px;
+}
+
+.services-preview-item3-purple {
+    color: #db2985;
+}
+
+.services-preview-item3-green {
+    color: #72aa41;
+}
+
+.services-preview-item3-orange {
+    color: #f2a137;
+}
+
+.services-preview-item3-blue {
+    color: #4fb1c9;
+}
+
+.services-agrofood {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services-agrofood h2 {
+    box-sizing: border-box;
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0;
+}
+
+.services-agrofood-h2-last {
+    width: 100%;
+    font-family: raleway;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.services-agrofood p {
+    width: 100%;
+    font-family: opensans;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.services-agrofood-items {
+    width: 1055px;
+    margin-top: 95px;
+    /* padding: 0 272px 0 273px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services-agrofood-item {
+    width: 16.66%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 40px 0 0;
+}
+
+.services-agrofood-item:last-child {
+    margin: 0;
+}
+
+.services-agrofood-item1-svg {
+    fill: #ff6262;
+}
+
+.services-agrofood-item2-svg {
+    fill: #4fb1c9;
+}
+
+.services-agrofood-item3-svg {
+    fill: #ffc243;
+}
+
+.services-agrofood-item4-svg {
+    fill: #8eaa41;
+}
+
+.services-agrofood-item5-svg {
+    fill: #f2374d;
+}
+
+.services-agrofood-item6-svg {
+    fill: #4b811b;
 }
