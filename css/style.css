@@ -743,3 +743,43 @@ header {
     left: 41%;
     top: 43%;
 }
+
+.comments {
+    width: 1600px;
+    min-height: 714px;
+    margin: 0 auto;
+    padding: 150px 0 0 0;
+    background-image: url(../img/fon_comm.jpg);
+    text-align: center;
+}
+
+.comments-hdr1 {
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.comments-hdr2 {
+    font-family: raleway;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.comments-txt {
+    width: 34%;
+    font-family: opensans;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #b3b3b3;
+    margin: 24px auto 59px auto;
+}
