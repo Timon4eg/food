@@ -382,6 +382,7 @@ header {
 }
 
 .services-agrofood h2 {
+    width: 100%;
     box-sizing: border-box;
     font-family: raleway;
     font-weight: 700;
@@ -391,6 +392,7 @@ header {
     text-transform: uppercase;
     color: #333333;
     margin: 0;
+    text-align: center;
 }
 
 .services-agrofood-h2-last {
@@ -405,7 +407,7 @@ header {
 }
 
 .services-agrofood-txt {
-    width: 100%;
+    width: 34%;
     font-family: opensans;
     font-weight: 300;
     font-style: normal;
@@ -428,7 +430,11 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.services-agrofood-item:hover {
+    outline: 3px solid #fcdb5a;
 }
 
 .services-agrofood-item p {
@@ -437,8 +443,8 @@ header {
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
-    line-height: 50px;
     color: #333333;
+    margin: 31px 0 0 0;
     text-align: center;
 }
 
