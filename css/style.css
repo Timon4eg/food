@@ -404,7 +404,7 @@ header {
     color: #333333;
 }
 
-.services-agrofood p {
+.services-agrofood-txt {
     width: 100%;
     font-family: opensans;
     font-weight: 300;
@@ -416,9 +416,8 @@ header {
 }
 
 .services-agrofood-items {
-    width: 1055px;
+    width: 1087px;
     margin-top: 95px;
-    /* padding: 0 272px 0 273px; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -429,7 +428,18 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 40px 0 0;
+    align-items: flex-end;
+}
+
+.services-agrofood-item p {
+    width: 100%;
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 50px;
+    color: #333333;
+    text-align: center;
 }
 
 .services-agrofood-item:last-child {
