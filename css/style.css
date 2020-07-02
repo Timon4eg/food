@@ -519,6 +519,8 @@ header {
 .perfect-preview-btn {
     width: 159px;
     height: 54px;
+    border: none;
+    outline: none;
     background-color: #fcdb5a;
     border: 3.0px solid #fcdb5a;
     border-radius: 25.5px;
@@ -528,6 +530,16 @@ header {
     font-size: 12px;
     line-height: 20px;
     text-transform: uppercase;
+    color: #4f4a37;
+}
+
+.perfect-preview-btn:hover {
+    background-color: #4f4a37;
+    color: #fcdb5a;
+}
+
+.perfect-preview-btn:active {
+    background-color: #fcdb5a;
     color: #4f4a37;
 }
 
@@ -544,26 +556,34 @@ header {
 
 .perfect-img-item2 {
     background-color: #fff;
+    padding: 47px 32px 0 43px;
+}
+
+.perfect-img-item2 span {
+    display: block;
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.perfect-img-item2 p {
+    font-family: opensans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #666666;
 }
 
 .perfect-img-item3 {
     background-image: url(../img/perf_img3.jpg);
 }
 
-.perfect-img-item4 {
-    background-color: #fff;
-}
-
-.perfect-img-item5 {
-    background-color: #fff;
-}
-
 .perfect-img-item6 {
     background-image: url(../img/perf_img6.jpg);
-}
-
-.perfect-img-item7 {
-    background-color: #fff;
 }
 
 .perfect-img-item8 {
