@@ -622,3 +622,78 @@ header {
     left: 65%;
     top: 4%;
 }
+
+.progress {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 150px 0 150px 0;
+    text-align: center;
+}
+
+.progress-hdr1 {
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.progress-hdr2 {
+    font-family: raleway;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.progress-txt {
+    width: 46%;
+    font-family: opensans;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #b3b3b3;
+    margin: 25px auto 80px auto;
+}
+
+.progress-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.progress-icons-item {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 50% 50%;
+}
+
+.progress-icons-item-img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.progress-icons-item-num {
+    font-family: gilroy;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #2e211d;
+    text-align: start;
+}
+
+.progress-icons-item-txt {
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 50px;
+    color: #555555;
+    text-align: start;
+}
