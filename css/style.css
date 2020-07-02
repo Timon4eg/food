@@ -479,13 +479,15 @@ header {
 .perfect {
     width: 1600px;
     min-height: 1166px;
+    background-color: #f9f9f9;
     background-image: url(../img/perf.jpg);
     background-repeat: no-repeat;
-    margin: 140px auto;
+    margin: 136px auto 0;
+    padding: 140px 0 0 0;
 }
 
 .perfect-preview {
-    padding: 147px 0 0 213px;
+    padding: 0 0 0 213px;
 }
 
 .perfect-preview-hdr1 {
@@ -594,4 +596,29 @@ header {
 
 .perfect-img-item8 {
     background-image: url(../img/perf_img8.jpg);
+}
+
+.cakes {
+    width: 1600px;
+    min-height: 684px;
+    background-image: url(../img/fon_cakes.jpg);
+    margin: 0 auto;
+    position: relative;
+}
+
+.cakes-txt {
+    width: 432px;
+    font-family: storytella;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 230px;
+    line-height: 180px;
+    color: #ccaf8a;
+    padding: 163px 0 0 224px;
+}
+
+.cakes-pic {
+    position: absolute;
+    left: 65%;
+    top: 4%;
 }
