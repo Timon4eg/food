@@ -746,10 +746,11 @@ header {
 
 .comments {
     width: 1600px;
-    min-height: 714px;
+    min-height: 565px;
     margin: 0 auto;
     padding: 150px 0 0 0;
     background-image: url(../img/fon_comm.jpg);
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -817,6 +818,11 @@ header {
     line-height: 23px;
     font-weight: 700;
     color: #ffffff;
+    align-items: center;
+}
+
+.comments-blok-autor img{
+    margin: 0 22px 0 0;
 }
 
 .comments-blok-pagination {
@@ -824,7 +830,8 @@ header {
     grid-column-start: 3;
     grid-column-end: 4;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .comments-blok-pagination-item {
@@ -838,5 +845,10 @@ header {
 
 .comments-blok-pagination-item:hover {
     background-color: #fcdb5a;
+    border: 2.0px solid #fcdb5a;
+}
+
+.comments-blok-pagination-item:active {
+    background-color: #5b5b5b;
     border: 2.0px solid #fcdb5a;
 }
