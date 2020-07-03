@@ -852,3 +852,137 @@ header {
     background-color: #5b5b5b;
     border: 2.0px solid #fcdb5a;
 }
+
+.blog {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 140px 0 140px 0;
+    text-align: center;
+}
+
+.blog-hdr {
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.blog-hdr2 {
+    font-weight: 100;
+}
+
+.blog-txt {
+    width: 48%;
+    margin: 35px auto 60px auto;
+    font-family: opensans;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #b3b3b3;
+}
+
+.blog-img {
+    width: 100%;
+    min-height: 396px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-gap: 30px;
+}
+
+.blog-img-item1 {
+    background-image: url(../img/blog1.jpg);
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.blog-img-item1:hover,
+.blog-img-item2:hover,
+.blog-img-item3:hover {
+    filter: drop-shadow(5px 5px 5px);
+}
+
+.blog-img-item1:hover .blog-img-item-hdr:hover,
+.blog-img-item2:hover .blog-img-item-hdr:hover,
+.blog-img-item3:hover .blog-img-item-hdr:hover {
+    color: #fff;
+}
+
+.blog-img-item1:hover .blog-img-item-hdr:active,
+.blog-img-item2:hover .blog-img-item-hdr:active,
+.blog-img-item3:hover .blog-img-item-hdr:active {
+    color: #fcdb5a;
+}
+
+.blog-img-item2 {
+    background-image: url(../img/blog2.jpg);
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.blog-img-item3 {
+    background-image: url(../img/blog3.jpg);
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.blog-img-item-date {
+    width: 61px;
+    min-height: 65px;
+    background-color: #fcdb5a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-img-item-dd {
+    font-family: gilroy;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0 auto;
+}
+
+.blog-img-item-mm {
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #9a8841;
+    margin: 0 auto;
+}
+
+.blog-img-item-content {
+    position: absolute;
+    left: 30px;
+    bottom: 28px;
+}
+
+.blog-img-item-hdr {
+    display: block;
+    text-align: left;
+    font-family: opensans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 23px;
+    color: #ddc051;
+    text-decoration: none;
+}
+
+.blog-img-item-txt {
+    font-family: raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 17px 0 0 0;
+    text-align: left;
+}
+
