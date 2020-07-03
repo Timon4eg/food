@@ -783,3 +783,60 @@ header {
     color: #b3b3b3;
     margin: 24px auto 59px auto;
 }
+
+.comments-blok {
+    width: 1075px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 91px 492px 492px;
+    grid-template-rows: repeat(2, 170px);
+}
+
+.comments-blok-marks {
+
+}
+
+.comments-blok-txt {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-family: timenewroman;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.comments-blok-autor {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.comments-blok-pagination {
+    width: 100%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.comments-blok-pagination-item {
+    display: block;
+    width: 11px;
+    height: 11px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    border: 2.0px solid #5b5b5b;
+}
+
+.comments-blok-pagination-item:hover {
+    background-color: #fcdb5a;
+    border: 2.0px solid #fcdb5a;
+}
